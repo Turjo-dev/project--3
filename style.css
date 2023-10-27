@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+#hero{
+  background-image: url(img/tutu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 140vh;
+  width: 100%;
+}
+.row::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+.nav{
+  padding: 20px 0px 50px 0px;
+  background-color: rgba(255, 255, 255, 0.339);
+  height: 50px;
+}
+.blank{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+.menu-1 li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 200;
+}
+.menu-1{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+}
+.menu-2 li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 200;
+}
+.menu-2{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+}
+.logo{
+  text-align: center;
+}
+.logo img{
+  height: 50px;
+  margin-top: -10px;
+}
+.img img{
+  height: 700px;
+}
+.text{
+  text-align: right;
+  padding: 100px;
+}
+.text h3{
+  color: white;
+  font-size: 45px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 200;
+}
+.text h5{
+  color: #ffc901;
+  font-size: 30px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+}
+.text img{
+  padding: 80px 0px 100px 0px;
+  width: 200px;
+}
+.gre h2{
+  color: #ffffff;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-right: 130px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 500;
+}
+.gre{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.564));
+  height: 90px;
+  width: 50%;
+  margin-left: 700px;
+  position: absolute;
+  left: 20px;
+}
+#about {
+  background-image: url(img/sec.png);
+  height: 110vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-2{
+  color: rgb(255, 255, 255);
+}
+.heading{
+  padding: 100px;
+  padding-top: 120px;
+}
+.heading p{
+  font-size: 40px;
+  text-align: center;
+  padding-right: 20px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+}
+.heading .l{
+  padding-top: 12px;
+}
+.heading .r{
+  padding-top: 12px;
+}
+.pra{
+  font-size: 20px;
+  padding: 0px 70px 0px 70px;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 200;
+}
+.fns{
+  font-size: 30px;
+  padding: 70px 0px 50px 0px;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 500;
+}
+#food-qal{
+  background-image: url(img/sec3.png);
+  height: 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec3img img {
+  height: 950px;
+}
+.heading-1{
+  padding: 100px;
+  padding-top: 220px;
+}
+.heading-1 p{
+  font-size: 40px;
+  text-align: center;
+  padding-right: 20px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+}
+.heading-1 .l{
+  padding-top: 12px;
+}
+.heading-1 .r{
+  padding-top: 12px;
+}
+#gallry{
+  background-image: url(img/gal-back.png);
+  height: 180vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallry .text-2 .heading .l {
+  align-items: right;
+}
+.gal img {
+  padding: 0px 0px 0px 120px;
+  width: 90%;
+}
+.booking{
+  background-image: url(img/booking.png);
+  background-size: cover;
+  background-position: center;
+  background-position-x: center;
+  height: 140vh;
+}
+.heading-2{
+  padding: 100px;
+}
+.heading-2 p{
+  font-size: 40px;
+  text-align: center;
+  padding-right: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+}
+.heading-2 .l{
+  padding-top: 20px;
+}
+.heading-2 .r{
+  padding-top: 12px;
+}
+.des{
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 200;
+}
+form{
+  margin: 150px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+label{
+  color: #c4c4c4;
+  font-size: 20px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+}
+input{
+  height: 35px;
+  width: 290px;
+  background-color: #ffc80100;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  color: #c4c4c4;
+  padding: 0px 10px 0px 10px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 200;
+}
+input::placeholder{
+  color: #c4c4c4;
+}
+.form{
+  display: flex;
+}
+button{
+  height: 40px;
+  width: 200px;
+  background-color: #ffc901;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 10px #ffd12a,
+  inset 2px 2px 10px rgb(244, 250, 201);
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+  
+}
+.btn{
+  text-align: center;
+}
+.pic{
+  background-image: url(img/picture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 100%;
+}
+.rvw{
+  background: black;
+  height: 40vh;
+  width: 100%;
+  padding: 20px 0px 50px 0px;
+}
+.rvw img{
+  position: absolute;
+  right: -20px;
+  margin-top: -600px;
+}
+.rvw p{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Chivo', sans-serif;
+}
+.qta {
+  position: absolute;
+  left: 48%;
+  bottom: -4980px;
+  font-size: 160px;
+  font-weight: 900;
+}
+.rve{
+  font-size: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.name{
+  font-size: 30px;
+}
+.footer{
+  background-color: #1c1c1c;
+  height: 140vh;
+  width: 100%;
+}
+.text- {
+  padding: 150px 100px 50px 150px;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+}
+.text- .head{
+  color: #ffc901;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.text- .das{
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.text- .fs{
+  color: #ffc901;
+  font-size: 30px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.pis img{
+  height: 400px;
+}
+.pis{
+  text-align: center;
+  padding-top: 50px;
+}
+.devider p{
+  color: #ffc901;
+  font-size: 40px;
+  text-align: center;
+}
+.logos {
+  text-align: center;
+}
+.logos img {
+  margin: 30px 0px 30px 0px;
+  width: 200px;
+}
+.smicon{
+  text-align: center;
+  margin-top: 50px;
+}
+.smicon img{
+  height: 30px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ftmn{
+  padding: 50px 0px;
+}
